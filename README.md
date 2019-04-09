@@ -9,7 +9,7 @@ The first time this is to be set up you shuld begin with running
 `first_install.sh`
 
 ```
-bash ./first_install.sh
+./first_install.sh
 ```
 
 This should now download and fully install an up to date version of Firefox on
@@ -17,7 +17,7 @@ your system. In the future it should only be necessary to run the
 `firefox_update.sh` script when Firefox complains about being too old.
 
 ```
-bash ./firefox_update.sh
+./firefox_update.sh
 ```
 
 # Sources
