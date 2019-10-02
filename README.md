@@ -1,25 +1,25 @@
 # Firefox Updater
 
 These scripts are designed to manually install and update the latest stable
-version of Firefox on Debian, since the original repositories are a bit behind.
+version of Firefox on Debian, since the original repositories are usually a bit
+behind.
 
 
 # Usage
 
-The first time this is to be set up you shuld begin with running
-`first_install.sh`. This will also copy the `.desktop` file to 
-`/usr/share/applications/`, in order to make the installation visible in the
-start menu. 
+The first time this is used, you should begin with running `first_install.sh`.
+This will download and install Firefox, while also copying the `.desktop` file
+to `/usr/share/applications/`, in order to make an icon visible in the start
+menu.
 
-```
+```bash
 ./first_install.sh
 ```
 
-This should now download and fully install an up to date version of Firefox on
-your system. In the future it should only be necessary to run the
-`firefox_update.sh` script when Firefox complains about being too old.
+In the future it should then only be necessary to run the `firefox_update.sh`
+script when Firefox complains about being too old.
 
-```
+```bash
 ./firefox_update.sh
 ```
 
